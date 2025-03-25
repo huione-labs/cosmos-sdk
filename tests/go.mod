@@ -1,6 +1,7 @@
 module github.com/cosmos/cosmos-sdk/tests
 
 go 1.19
+toolchain go1.24.1
 
 require (
 	cosmossdk.io/api v0.2.6
@@ -17,7 +18,7 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/stretchr/testify v1.8.1
 	github.com/tendermint/tendermint v0.37.0-rc2
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.6
 	gotest.tools/v3 v3.4.0
 	pgregory.net/rapid v0.5.5
 )
